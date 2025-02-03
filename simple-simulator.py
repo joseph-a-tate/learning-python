@@ -40,6 +40,9 @@ class Character(object):
             char_str += "No home\n"
         return char_str
 
+first_names = ["James","Jill","Sarah","Bob","Mark","Tim","Max","David","Joseph","Elly","Marry","Sue","Donna","Elizabeth","Emry","Carly","Matthew","Bill","Norah","Jim","Stephen"]
+last_names = ["Tate","Casey","Worthy","Ebel","Kim","Young","Smith","McDonalds","Stephens","Brown","Costner","Folkers","Park","Ngoung","Choe"]
+
 if __name__ == "__main__":
     bob = Character(name="Bob")
     print(bob)
