@@ -9,6 +9,7 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swapped = True
         if not swapped:
+            print("Hi buddy, bubble sort ended earlier")
             return count
     return count
 
@@ -52,6 +53,6 @@ print("unsorted: " + str(arr))
 count1 = bubble_sort(arr)
 count2 = merge_sort(arr2)
 print("bubble sorted: " + str(arr))
-print("bubble count: " + str(count1))
+print("bubble count: " + str(count1)) 
 print("merge sorted: " + str(arr2))
 print("merge count: " + str(count2))

@@ -1,0 +1,9 @@
+1.) taking command line arguments
+2.) python libraries matplotlib, numpy, pandas
+3.) reading a file
+4.) reading html from a URL
+5.) parsing HTML with BeautifulSoup
+6.) bot to perform API calls
+7.) using a web scraping library like Scrapy
+8.) using a web automation library like Selenium
+9.) automating tasks on Discord
